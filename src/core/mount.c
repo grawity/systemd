@@ -749,7 +749,7 @@ static int mount_spawn(Mount *m, ExecCommand *c, pid_t *_pid) {
 static void mount_enter_dead(Mount *m, MountResult f) {
         assert(m);
 
-        if (f != MOUNT_SUCCESS)
+        if (f != MOUNT_SUCCESS || !m->is_mounted)
                 m->result = f;
 
         exec_runtime_destroy(m->exec_runtime);
@@ -1201,6 +1201,8 @@ static void mount_sigchld_event(Unit *u, pid_t pid, int code, int status) {
         case MOUNT_UNMOUNTING_SIGKILL:
         case MOUNT_UNMOUNTING_SIGTERM:
 
+                log_unit_debug(u, "(MOUNT_UNMOUNTING) Mount %p { where='%s', result=%d, is_mounted=%d, from_proc_self_mountinfo=%d }, f=%d", m, m->where, m->result, m->is_mounted, m->from_proc_self_mountinfo, f);
+
                 if (f == MOUNT_SUCCESS) {
 
                         if (m->from_proc_self_mountinfo) {
@@ -1222,13 +1224,23 @@ static void mount_sigchld_event(Unit *u, pid_t pid, int code, int status) {
                                         log_unit_debug(u, "Mount still present after %u attempts to unmount, giving up.", m->n_retry_umount);
                                         mount_enter_mounted(m, f);
                                 }
-                        } else
+                        } else {
+                                log_unit_debug(u, "~ [f == SUCCESS] calling mount_enter_dead(%p, %d)", m, f);
                                 mount_enter_dead(m, f);
+                        }
 
-                } else if (m->from_proc_self_mountinfo)
+                } else if (m->from_proc_self_mountinfo) {
+                        log_unit_debug(u, "~ [f != success] calling mount_enter_mounted(%p, %d) because from_proc_self_mountinfo", m, f);
                         mount_enter_mounted(m, f);
-                else
+                }
+                else {
+                        if (!m->is_mounted) {
+                                log_unit_debug(u, "~ [f != success] overriding current f=%d with MOUNT_SUCCESS", f);
+                                f = MOUNT_SUCCESS;
+                        }
+                        log_unit_debug(u, "~ [f != success] calling mount_enter_dead(%p, %d)", m, f);
                         mount_enter_dead(m, f);
+                }
                 break;
 
         default:
@@ -1682,6 +1694,20 @@ static int mount_dispatch_io(sd_event_source *source, int fd, uint32_t revents, 
 
         LIST_FOREACH(units_by_type, u, m->units_by_type[UNIT_MOUNT]) {
                 Mount *mount = MOUNT(u);
+
+                log_debug("~ Mount %p { is_mounted=%d, state=%d, just_mounted=%d, just_changed=%d, from_proc_self_mountinfo=%d }",
+                                mount,
+                                mount->is_mounted,
+                                mount->state,
+                                mount->just_mounted,
+                                mount->just_changed,
+                                mount->from_proc_self_mountinfo);
+                if (mount->from_proc_self_mountinfo) {
+                        log_debug("~~ parameters_proc_self_mountinfo { what='%s', options='%s', fstype='%s' }",
+                                        mount->parameters_proc_self_mountinfo.what,
+                                        mount->parameters_proc_self_mountinfo.options,
+                                        mount->parameters_proc_self_mountinfo.fstype);
+                }
 
                 if (!mount->is_mounted) {
 
