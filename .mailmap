@@ -1,76 +1,177 @@
 Alan Jenkins <alan.christopher.jenkins@googlemail.com>
 Alan Jenkins <alan.christopher.jenkins@googlemail.com> <alan-jenkins@tuffmail.co.uk>
+Alban Crequy <alban@kinvolk.io> <alban.crequy@gmail.com>
+Alban Crequy <alban@kinvolk.io> <alban@endocode.com>
 Alexander Kuleshov <kuleshovmail@gmail.com> <0xAX@users.noreply.github.com>
+Alexey Shabalin <a.shabalin@gmail.com> <shaba@altlinux.org>
 Ananth N Mavinakayanahalli <ananth@in.ibm.com>
 Ananth N Mavinakayanahalli <ananth@in.ibm.com> <ananthmg@rediffmail.com>
+Anders Olofsson <anders.olofsson@axis.com> <Anders.Olofsson@axis.com>
+Andreas Pokorny <andreas.pokorny@gmail.com> <andreas.pokorny@canonical.com>
+Andrei Borzenkov <arvidjaar@gmail.com>
+Andrei Borzenkov <arvidjaar@gmail.com> <arvidjaar@mail.ru>
+Ansgar Burchardt <ansgar@debian.org> <aburch@users.noreply.github.com>
+Ansgar Burchardt <ansgar@debian.org> <ansgar@43-1.org>
+Anssi Hannula <anssi.hannula@iki.fi> <anssi.hannula@gmail.com>
 Arnd Bergmann <arnd@arndb.de>
 Atul Sabharwal <atul.sabharwal@intel.com>
+Benjamin Robin <dev@benjarobin.fr>
+Brandon Philips <brandon@ifup.co> <brandon@ifup.org>
+Brandon Philips <brandon@ifup.co> <brandon.philips@coreos.com>
 Brian Boylston <brian.boylston@hpe.com>
+Chris Atkinson <christopher.william.atkinson@gmail.com> <cwa@pipeline.com>
+Christian Hesse <mail@eworm.de> <list@eworm.de>
+Christian Kirbach <christian.kirbach@gmail.com>
 Christophe Varoqui <christophe.varoqui@free.fr>
+Damjan Georgievski <gdamjan@gmail.com>
+Dan Dedrick <ddedrick@lexmark.com> <dan.dedrick@gmail.com>
+Daniel Drake <drake@endlessm.com> <dsd@gentoo.org>
+Daniel Drake <drake@endlessm.com> <dsd@laptop.org>
 Daniel Elstner  <daniel.kitta@gmail.com> <danielk@openismus.com>
+Daniel Hahler <github@thequod.de> <git@thequod.de>
 Daniel J Walsh <dwalsh@redhat.com>
 Daniel Machon <Danielmachon@live.dk>
+Daniel Machon <Danielmachon@live.dk> <dmachon.dev@gmail.com>
+Daniel Mack <daniel@zonque.org> <github@zonque.org>
+Daniel Mack <daniel@zonque.org> <zonque@gmail.com>
 Daniel Stekloff <dsteklof@us.ibm.com>
+Dan Nicholson <nicholson@endlessm.com> <dbn.lists@gmail.com>
 Dave Reisner <dreisner@archlinux.org> <d@falconindy.com>
+Davide Cavalca <dcavalca@fb.com> <davide125@tiscali.it>
+David Herrmann <dh.herrmann@gmail.com> <dh.herrmann@googlemail.com>
 David Zeuthen <david@fubar.dk>
 David Zeuthen <david@fubar.dk> <davidz@redhat.com>
 David Zeuthen <david@fubar.dk> <zeuthen@gmail.com>
 Diego Elio Pettenò <flameeyes@gmail.com>
+Dimitri John Ledkov <xnox@ubuntu.com> <dimitri.j.ledkov@intel.com>
+Djalal Harouni <tixxdz@opendz.org> <djalal@endocode.com>
 Douglas Christman <DouglasChristman@gmail.com>
+Douglas Christman <DouglasChristman@gmail.com> <douglaschristman@gmail.com>
+Eugene Yakubovich <eugene.yakubovich@coreos.com> <eyakubovich@gmail.com>
+Evan Nemerson <evan@nemerson.com> <evan@coeus-group.com>
 Fabiano Fidêncio <fabianofidencio@gmail.com> Fabiano Fidencio <fidencio@profusion.mobi>
+Felipe Sateler <fsateler@gmail.com> <fsateler@debian.org>
+Felipe Sateler <fsateler@gmail.com> <fsateler@users.noreply.github.com>
 Frederic Crozat <fcrozat@suse.com> <fcrozat@mandriva.com>
+Gianpaolo Macario <gianpaolo_macario@mentor.com> <gmacario@gmail.com>
+Giovanni Campagna <gcampagn@redhat.com> <scampa.giovanni@gmail.com>
+Goffredo Baroncelli <kreijack@inwind.it> <kreijack@libero.it>
 Greg Kroah-Hartman <greg@kroah.com>
 Greg Kroah-Hartman <greg@kroah.com> <greg@bucket.kroah.org>
 Greg Kroah-Hartman <greg@kroah.com> <gregkh@linuxfoundation.org>
 Greg Kroah-Hartman <greg@kroah.com> <gregkh@suse.de>
 Greg Kroah-Hartman <greg@kroah.com> <greg@kroah.com>
 Greg Kroah-Hartman <greg@kroah.com> <greg@press.(none)>
+Gustavo Sverzut Barbieri <gustavo.barbieri@intel.com> <barbieri@profusion.mobi>
 Hannes Reinecke <hare@suse.de>
 Harald Hoyer <harald@redhat.com>
+Hendrik Brueckner <brueckner@linux.vnet.ibm.com> <brueckner@redhat.com>
+Holger Hans Peter Freyther <holger@moiji-mobile.com> <holger@freyther.de>
+Hristo Venev <mustrumr97@gmail.com> <hristo@venev.name>
+Iago López Galeiras <iago@kinvolk.io> <iago@endocode.com>
+Iago López Galeiras <iago@kinvolk.io> <iaguis@gmail.com>
 Ian Campbell <ijc@hellion.org.uk> <Ian.Campbell@citrix.com>
+Ivan Shapovalov <intelfx@intelfx.name> <intelfx100@gmail.com>
+Jakub Wilk <jwilk@jwilk.net> <jwilk@debian.org>
+Jan Engelhardt <jengelh@inai.de> <jengelh@medozas.de>
+Jan Synacek <jan.synacek@gmail.com> <jsynacek@redhat.com>
+Jeff Huang <s8321414@chakraos.org> <s8321414@gmail.com>
 Jerone Young <jyoung@redhat.com> <jerone.young@canonical.com>
+Jonathan Boulle <jonathanboulle@gmail.com> <jonathan.boulle@coreos.com>
+kayrus <kay.diam@gmail.com> <kayrus@users.noreply.github.com>
 Kay Sievers <kay@vrfy.org>
 Kay Sievers <kay@vrfy.org> <kay@pim>
 Kay Sievers <kay@vrfy.org> <kay@pim.off.vrfy.org>
 Kay Sievers <kay@vrfy.org> <kay.sievers@suse.de>
 Kay Sievers <kay@vrfy.org> <kay.sievers@vrfy.org>
 Kay Sievers <kay@vrfy.org> <kay@yik.fritz.box>
+Koen Kooi <koen.kooi@linaro.org> <koen@dominion.thruhere.net>
 Lennart Poettering <lennart@poettering.net> <lennart@bf9bc1cc-28ce-0310-abfb-9041aa761afb>
+Luca Bruno <luca.bruno@coreos.com> <lucab@debian.org>
+Lucas De Marchi <lucas.demarchi@intel.com> <lucas.de.marchi@gmail.com>
+Lucas De Marchi <lucas.demarchi@intel.com> <lucas.demarchi@profusion.mobi>
 Luis Felipe Strano Moraes <luis.strano@gmail.com> <lfelipe@profusion.mobi>
+Lukáš Nykrýn <lnykryn@redhat.com>
+Lukasz Skalski <l.skalski@samsung.com> <l.skalski@partner.samsung.com>
+Łukasz Stelmach <l.stelmach@samsung.com> <stlman@poczta.fm>
+Luke Shumaker <lukeshu@sbcglobal.net> <LukeShu@sbcglobal.net>
 Marco d'Itri <md@linux.it> <md@Linux.IT>
 Mario Limonciello <mario_limonciello@dell.com> <Mario_Limonciello@dell.com>
+Marius Vollmer <marius.vollmer@redhat.com> <mvollmer@redhat.com>
 Martin Pitt <martinpitt@gnome.org>
 Martin Pitt <martinpitt@gnome.org> <martin.pitt@ubuntu.com>
 Marty Plummer <ntzrmtthihu777@gmail.com>
+Matthew Garrett <mjg59@coreos.com> <mjg@redhat.com>
+Matthew Monaco <matt@monaco.cx> <matthew.monaco@0x01b.net>
 Matthias Clasen <mclasen@redhat.com> <matthias.clasen@gmail.com>
+Maxim Mikityanskiy <maxtram95@gmail.com>
+Michael Biebl <mbiebl@gmail.com> <biebl@debian.org>
 Michael Buesch <mbuesch@freenet.de>
 Michael Olbrich <m.olbrich@pengutronix.de>
+Michael Scherer <misc@redhat.com> <misc@zarb.org>
+Michael Stapelberg <stapelberg@debian.org> <michael@stapelberg.de>
+Michał Bartoszkiewicz <mbartoszkiewicz@gmail.com> <embe-ml@magma-net.pl>
+Michal Sekletar <msekleta@redhat.com> <msekletar@users.noreply.github.com>
 Michal Soltys <soltys@ziu.info> <nozo@ziu.info>
-Miklos Vajna <vmiklos@frugalware.org> <vmiklos@gmail.com>
+Mike Gilbert <floppym@gentoo.org> <floppymaster@gmail.com>
+Miklos Vajna <vmiklos@vmiklos.hu> <vmiklos@frugalware.org>
+Miklos Vajna <vmiklos@vmiklos.hu> <vmiklos@gmail.com>
+Nick Owens <mischief@offblast.org> <mischief@coreos.com>
+Nick Owens <mischief@offblast.org> <nick.owens@coreos.com>
+Nicolas Cornu <ncornu@aldebaran.com> <nicolac76@yahoo.fr>
+Nirbheek Chauhan <nirbheek.chauhan@gmail.com> <nirbheek.chauhan@collabora.co.uk>
+Nis Martensen <nis.martensen@web.de>
 Olaf Hering <olh@suse.de>
+Olivier Brunel <jjk@jjacky.com> <i.am.jack.mail@gmail.com>
 Otto Wallenius <otto_026@hotmail.com>
+Ozan Çağlayan <ozancag@gmail.com> <ozan@pardus.org.tr>
 Pablo Lezaeta Reyes <prflr88@gmail.com>
 Patrick Mansfield <patmans@us.ibm.com>
+Patrik Flykt <patrik.flykt@linux.intel.com> <Patrik.Flykt@linux.intel.com>
 Paul Mundt <lethal@linux-sh.org>
+Peter Mattern <pmattern@arcor.de> <matternp@arcor.de>
+Philippe De Swert <philippedeswert@gmail.com> <philippe.deswert@jollamobile.com>
 Piter PUNK <piterpunk@slackware.com> <piterpk@terra.com.br>
+Rami Rosen <rami.rosen@intel.com> <ramirose@gmail.com>
 Richard Hughes <richard@hughsie.com> <hughsient@gmail.com>
 Robby Workman <rw@rlworkman.net> <rworkman@slackware.com>
 Robert Gerus <ar@bash.org.pl> Robert "arachnist" Gerus <ar@bash.org.pl>
 Robert Love <rml@tech9.net>
+Ronny Chevalier <chevalier.ronny@gmail.com> <rchevalier@aldebaran-robotics.com>
 Scott James Remnant <scott@netsplit.com>
 Scott James Remnant <scott@netsplit.com> <scott@ubuntu.com>
+Sergey Ptashnick <0comffdiz@inbox.ru>
+Shawn Landden <shawnlandden@gmail.com>
 Shawn Landden <shawnlandden@gmail.com> <shawn@churchofgit.com>
 Simon Peeters <peeters.simon@gmail.com>
+Sjoerd Simons <sjoerd.simons@collabora.co.uk> <sjoerd@luon.net>
+Stef Walter <stefw@redhat.com> <stef@thewalter.net>
+Steven Hiscocks <steven@hiscocks.me.uk> <steven-systemd@hiscocks.me.uk>
+Susant Sahani <ssahani@redhat.com> <ssahani@gmail.com>
+Susant Sahani <ssahani@redhat.com> <ssahani@users.noreply.github.com>
+Susant Sahani <ssahani@redhat.com> <susant@redhat.com>
+Sylvain Plantefève <sylvain.plantefeve@gmail.com>
+Sylvain Plantefève <sylvain.plantefeve@gmail.com> <melkor73@gmail.com>
 Ted Ts'o <tytso@mit.edu>
 Thomas Blume <Thomas.Blume@suse.com>
 Thomas H. P. Andersen <phomes@gmail.com>
+Tobias Hunger <tobias.hunger@gmail.com> <tobias.hunger@digia.com>
+Tobias Jungel <tobias.jungel@bisdn.de> <Tobias.Jungel@gmail.com>
 Tobias Klauser <tklauser@access.unizh.ch>
 Tobias Klauser <tklauser@access.unizh.ch> <klauser@access.unizh.ch>
 Tobias Klauser <tklauser@access.unizh.ch> <tklauser@access.unizh.chbk>
 Tobias Klauser <tklauser@access.unizh.ch> <tklauser@distanz.ch>
-Tobias Klauser <tklauser@distanz.ch> <tklauser@nuerscht.ch>
+Tobias Klauser <tklauser@access.unizh.ch> <tklauser@nuerscht.ch>
 Tom Rini <trini@kernel.crashing.org>
 Tom Yan <tom.ty89@gmail.com>
+Topi Miettinen <toiwoton@gmail.com> <topimiettinen@users.noreply.github.com>
+Umut Tezduyar Lindskog <umut.tezduyar@axis.com> <umuttl@axis.com>
+Viktar Vaŭčkievič <victorenator@gmail.com>
+Vinay Kulkarni <kulkarniv@vmware.com> <vskibum@gmail.com>
+Vincent Batts <vbatts@hashbangbash.com> <vbatts@redhat.com>
+Vito Caputo <vcaputo@gnugeneration.com> <vito.caputo@coreos.com>
+WaLyong Cho <walyong.cho@samsung.com> <walyong.cho@gmail.com>
+William Douglas <william.douglas@intel.com> <william.r.douglas@gmail.com>
 William Jon McCann <jmccann@redhat.com> <william.jon.mccann@gmail.com>
 Yin Kangkai <kangkai.yin@intel.com> <kangkai.yin@linux.intel.com>
 Zbigniew Jędrzejewski-Szmek <zbyszek@in.waw.pl>
