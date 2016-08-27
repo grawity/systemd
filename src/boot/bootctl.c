@@ -436,12 +436,16 @@ static int status_variables(void) {
         /* print remaining entries */
         for (i = 0; i < n_options; i++) {
                 int j;
+                bool found = false;
 
                 for (j = 0; j < n_order; j++)
-                        if (options[i] == order[j])
-                                continue;
+                        if (options[i] == order[j]) {
+                                found = true;
+                                break;
+                        }
 
-                print_efi_option(options[i], false);
+                if (!found)
+                        print_efi_option(options[i], false);
         }
 
         return 0;
