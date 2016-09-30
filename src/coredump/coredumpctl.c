@@ -368,14 +368,14 @@ static int print_list(FILE* file, sd_journal *j, int had_legend) {
                         8, "COREFILE",
                            "EXE");
 
-        if (filename)
+        if (filename) {
                 if (access(filename, R_OK) == 0)
                         present = "present";
                 else if (errno == ENOENT)
                         present = "missing";
                 else
                         present = "error";
-        else if (coredump)
+        } else if (coredump)
                 present = "journal";
         else
                 present = "none";
