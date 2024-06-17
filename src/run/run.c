@@ -82,6 +82,7 @@ static char **arg_cmdline = NULL;
 static char *arg_exec_path = NULL;
 static bool arg_ignore_failure = false;
 static char *arg_background = NULL;
+static bool arg_pty_set_title = false;
 
 STATIC_DESTRUCTOR_REGISTER(arg_description, freep);
 STATIC_DESTRUCTOR_REGISTER(arg_environment, strv_freep);
@@ -666,6 +667,8 @@ static int parse_argv(int argc, char *argv[]) {
                         ARG_STDIO_PTY :
                         ARG_STDIO_DIRECT;
 
+        arg_pty_set_title = shall_set_terminal_title(false);
+
         if (argc > optind) {
                 char **l;
 
@@ -899,6 +902,8 @@ static int parse_argv_sudo_mode(int argc, char *argv[]) {
         arg_stdio = isatty(STDIN_FILENO) && isatty(STDOUT_FILENO) && isatty(STDERR_FILENO) ? ARG_STDIO_PTY : ARG_STDIO_DIRECT;
         arg_expand_environment = false;
         arg_send_sighup = true;
+
+        arg_pty_set_title = shall_set_terminal_title(true);
 
         _cleanup_strv_free_ char **l = NULL;
         if (argc > optind)
@@ -1848,7 +1853,7 @@ static int start_transient_service(sd_bus *bus) {
                         if (!isempty(arg_background))
                                 (void) pty_forward_set_background_color(c.forward, arg_background);
 
-                        if (shall_set_terminal_title())
+                        if (arg_pty_set_title)
                                 set_window_title(c.forward);
                 }
 

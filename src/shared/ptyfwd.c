@@ -368,7 +368,7 @@ static int insert_background_fix(PTYForward *f, size_t offset) {
         return insert_string(f, offset, s);
 }
 
-bool shall_set_terminal_title(void) {
+bool shall_set_terminal_title(bool default_mode) {
         static int cache = -1;
 
         if (cache >= 0)
@@ -376,7 +376,7 @@ bool shall_set_terminal_title(void) {
 
         cache = getenv_bool("SYSTEMD_SET_TERM_TITLE");
         if (cache == -ENXIO)
-                return (cache = true);
+                return (cache = default_mode);
         if (cache < 0)
                 log_debug_errno(cache, "Failed to parse $SYSTEMD_SET_TERM_TITLE, leaving terminal title setting enabled: %m");
 

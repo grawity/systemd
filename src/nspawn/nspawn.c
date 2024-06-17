@@ -5566,7 +5566,7 @@ static int run_container(
                         } else if (!isempty(arg_background))
                                 (void) pty_forward_set_background_color(forward, arg_background);
 
-                        if (shall_set_terminal_title())
+                        if (shall_set_terminal_title(true))
                                 set_window_title(forward);
                         break;
 
